@@ -1,0 +1,336 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ligne-noire {
+  background-color:  black;
+  color: white;
+  padding-left: 5%  ;
+  font-size: 2em;
+  padding-top: 5%;
+ 
+}
+ 
+body {
+ 
+    font-family: Arial, sans-serif;
+ 
+    margin: 0;
+ 
+    padding: 0;
+ 
+}
+ 
+.navbar {
+ 
+    background-color: #000;
+ 
+    color: #fff;
+ 
+    display: flex;
+ 
+    justify-content: space-between;
+ 
+    align-items: center;
+ 
+    padding: 10px 20px;
+
+    position: relative;
+ 
+}
+ 
+.navbar .logo {
+ 
+    font-size: 24px;
+ 
+    font-weight: bold;
+ 
+}
+ 
+.nav-links {
+ 
+    list-style: none;
+ 
+    margin: 0;
+ 
+    padding: 0;
+ 
+    display: flex;
+ 
+}
+ 
+.nav-links li {
+ 
+    margin-right: 20px;
+ 
+}
+ 
+.nav-links a {
+ 
+    text-decoration: none;
+ 
+    color: #fff;
+ 
+    font-size: 16px;
+ 
+}
+ 
+.search-bar {
+ 
+    display: flex;
+ 
+    align-items: center;
+ 
+}
+ 
+.search-bar input {
+ 
+    padding: 5px;
+ 
+    border: none;
+ 
+    border-radius: 5px;
+ 
+    margin-right: 10px;
+ 
+}
+ 
+.search-btn {
+ 
+    background-color: #fff;
+ 
+    border: none;
+ 
+    border-radius: 5px;
+ 
+    cursor: pointer;
+ 
+}
+ 
+.account-icon {
+ 
+    font-size: 24px;
+ 
+}
+
+/* Nav.css */
+.page-container {
+  background-image: url('image/fond.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+ }
+ .nav-title {
+  color: #fff; 
+  text-align: center; 
+  margin-top: 20px; 
+  font-size: 4em; 
+  position: absolute;
+  left: 22px;
+  font-family: 'Arial', sans-serif; 
+}
+
+.text-with-background {
+  background-color: rgba(169, 169, 169, 0.5); 
+  padding: 10px; 
+  border-radius: 5px; 
+  margin-top: 20px;
+}
+
+/* App.css ou Nav.css */
+.page-container {
+  background-image: url('image/fond.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-container {
+  flex: 1;
+}
+
+.text-container {
+  flex: 2;
+  background-color: rgba(0, 0, 0, 0.18); 
+  padding: 20px; 
+  border-radius: 15px; /* Supprimez !important pour permettre les modifications */
+  position: relative;
+  top: -90px;
+  left: -522px;
+  line-height: 38px;
+  text-align: justify;
+  margin-top: 200px;
+  margin-left: 200px;
+  font-size: 35px;
+  color: white;
+  font-family: 'Arial', sans-serif; 
+}
+
+
+.nav-title {
+  color: #fff;
+  font-size: 70px;
+  font-family: 'Arial', sans-serif; 
+}
+/* App.css ou Nav.css */
+.shoes-container {
+  flex: 1;
+  text-align: right;
+}
+
+.shoes-image {
+  height: auto; 
+  margin-top: 20px; 
+  width: 140%; 
+  position: relative;
+  left: -222px;
+  top: 12px;
+}
+/* Ajoutez ces styles dans votre fichier CSS */
+
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  margin-right: 0;
+  width: 200px; /* Ajustez la largeur selon vos besoins */
+  font-size: 16px;
+}
+
+.search-btn {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Optionnel: Style pour rendre la barre de recherche centrée */
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Styles supplémentaires pour le reste de votre application */
+
+.page-container {
+  background-image: url('image/fond.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Ajoutez vos autres styles ici */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.left-section, .middle-section, .right-section {
+  width: 30%;
+}
+
+.sneakers-addict {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  color: rgb(161, 20, 242);
+}
+.newsletter-form input:focus {
+  color: rgb(161, 20, 242);
+  outline: none;
+}
+
+
+.newsletter-btn {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.follow-us {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.social-media-icons img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.your-opinion {
+  font-size: 67px;
+}
+
+.social-media-icons a {
+  color: white;
+  text-decoration: none; /* Pour supprimer le soulignement des liens */
+}
